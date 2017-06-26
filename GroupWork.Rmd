@@ -1,0 +1,55 @@
+---
+title: "GroupWork"
+author: "D_Goble"
+date: "`r format(Sys.Date(),'%d %B %y')`"
+output:
+    html_document:
+      theme: yeti
+      code_folding: hide
+      toc: true
+      toc_float: true
+---
+
+# Header
+
+## Header
+
+### Header
+
+**I am bold**, and I am not, _and I am Italics_
+
+[Titleist](Https://titleist.com) <!--Inserted titleist website-->
+
+![The Number one ball in golf](http://www.pgatoursuperstore.com/media/pgatss/images/brand_images/Titleist/Titleist_Logo_288x184_042413.jpg)
+
+![Scotty Cameron M1 Mallet](http://www.pgatoursuperstore.com/media/pgatss/images/Product/list/1000000006601LST.jpg)
+
+![](hist.png) 
+
+```{r}
+foo <-- rnorm(1000)
+plot(foo)
+bar <-- foo + jitter(foo)
+plot(bar)
+```
+
+```{r newchunk}
+plot(foo, col = 'blue')
+points(bar, col ='green')
+
+```
+
+```{r}
+plot(foo)
+
+```
+
+```{r}
+# Header
+png('hist.png')
+hist(rnorm(1000))
+abline(v = mean(rnorm(1000)))
+## Header
+
+### Header
+```
