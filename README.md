@@ -4,6 +4,6 @@
 
 **Hello World** I am Bold
 
--Hello World_ I am Italic
+_Hello World_ I am Italic
 
 _**Hello World**_ I am Bold and Italic
