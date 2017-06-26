@@ -14,8 +14,6 @@ output:
 
 ## Header
 
-### Header
-
 **I am bold**, and I am not, _and I am Italics_
 
 [Titleist](Https://titleist.com) <!--Inserted titleist website-->
